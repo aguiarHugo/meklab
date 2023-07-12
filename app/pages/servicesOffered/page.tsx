@@ -70,10 +70,10 @@ export default function Services() {
         </div>
       </div>
       <div className='flex flex-wrap justify-center items-center my-16 gap-12'>
-        <Link href='https://www.bomgia.com.br/meklab/abre-catalogo.asp?t=1' target='_blank' className='bg-blue-100 py-2 px-4 w-[200px] rounded-md hover:brightness-125 text-center'>
+        <Link href='https://www.bomgia.com.br/meklab/abre-catalogo.asp?t=1' target='_blank' className='bg-blue-100 py-2 px-4 w-[230px] rounded-md hover:brightness-125 text-center'>
           Ver Catálogo Eletrônico
         </Link>
-        <Link href='https://www.bomgia.com.br/meklab/abre-catalogo.asp?t=2' target='_blank' className='bg-blue-100 py-2 px-4 w-[200px] rounded-md hover:brightness-125 text-center'>
+        <Link href='https://www.bomgia.com.br/meklab/abre-catalogo.asp?t=2' target='_blank' className='bg-blue-100 py-2 px-4 w-[230px] rounded-md hover:brightness-125 text-center'>
           Ver Catálogo em PDF
         </Link>
       </div>
