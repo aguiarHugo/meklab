@@ -6,7 +6,7 @@ import { useState } from "react"
 
 import useMediaQuery from "@/hooks/UseMediaQuery"
 import { Menu, X } from "lucide-react"
-import logo from '../public/logo-nobg.png'
+import logo from '../public/logo.png'
 
 
 const Navbar = () => {

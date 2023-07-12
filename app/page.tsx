@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import logo from '../public/logo-nobg.png'
+import logo from '../public/logo.png'
 import water from '../public/water.jpg'
 
 import { motion } from "framer-motion"
