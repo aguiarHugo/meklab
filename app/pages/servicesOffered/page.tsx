@@ -65,7 +65,7 @@ export default function Services() {
         <div className='flex flex-col w-[200px] justify-center items-center gap-2'>
           <AiOutlineCalendar size={48} className='text-blue-100' />
           <p className='text-center'>
-            Garantia e Suporte de 5 Anos
+            Garantia e Suporte de 1 ano
           </p>
         </div>
       </div>
