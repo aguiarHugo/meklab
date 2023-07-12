@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import lamp from '@/public/lamp.jpg'
+import meklab from '@/public/meklab1.png'
 import Link from 'next/link'
 
 export default function Aboutus() {
@@ -13,9 +13,9 @@ export default function Aboutus() {
       <div className="flex justify-center items-center sm:gap-16">
         <div className='hidden sm:flex'>
           <Image
-            src={lamp}
-            alt='lamp'
-            className='w-[300px] h-[300px] rounded-full'
+            src={meklab}
+            alt='meklab'
+            className='w-[300px] h-[200px]'
           />
         </div>
         <div className="flex flex-col gap-4 px-12 mt-6 sm:mt-0 sm:px-0 sm:basis-1/2">
@@ -63,10 +63,10 @@ export default function Aboutus() {
         </div>
       </div>
       <div className='flex flex-wrap justify-center items-center my-16 gap-12'>
-        <Link href='https://www.bomgia.com.br/meklab/abre-catalogo.asp?t=1' target='_blank' className='bg-blue-100 py-2 px-4 w-[200px] rounded-md hover:brightness-125 text-center'>
+        <Link href='https://www.bomgia.com.br/meklab/abre-catalogo.asp?t=1' target='_blank' className='bg-blue-100 py-2 px-4 w-[230px] rounded-md hover:brightness-125 text-center'>
           Ver Catálogo Eletrônico
         </Link>
-        <Link href='https://www.bomgia.com.br/meklab/abre-catalogo.asp?t=2' target='_blank' className='bg-blue-100 py-2 px-4 w-[200px] rounded-md hover:brightness-125 text-center'>
+        <Link href='https://www.bomgia.com.br/meklab/abre-catalogo.asp?t=2' target='_blank' className='bg-blue-100 py-2 px-4 w-[230px] rounded-md hover:brightness-125 text-center'>
           Ver Catálogo em PDF
         </Link>
       </div>
