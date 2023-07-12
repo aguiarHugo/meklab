@@ -1,11 +1,18 @@
 import Navbar from '@/components/Navbar'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Roboto, Poppins } from 'next/font/google'
+import { Roboto, Poppins, Open_Sans } from 'next/font/google'
 import Footer from '@/components/Footer'
 
 const roboto = Roboto({ 
   weight: ['400', '700'], 
+  style: 'normal',
+  subsets: ['latin'],
+  display: 'swap' 
+})
+
+const openSans = Open_Sans({
+  weight: ['400', '700'],
   style: 'normal',
   subsets: ['latin'],
   display: 'swap' 
@@ -33,7 +40,7 @@ export default function RootLayout({
       <head>
         <link rel='icon' href='/favicon.ico'/>
       </head>
-        <body className={`${roboto.className} bg-dark-300 flex flex-col min-h-screen`}>
+        <body className={`${openSans.className} bg-dark-300 flex flex-col min-h-screen`}>
           <Navbar />
           {children}
           <Footer />
