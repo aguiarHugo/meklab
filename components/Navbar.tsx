@@ -35,7 +35,7 @@ const Navbar = () => {
               <Link href="/" className="duration-300 hover:text-blue-100">Home</Link>
               <Link href="/pages/aboutus" className="duration-300 hover:text-blue-100">Quem Somos</Link>
               <Link href="/pages/servicesOffered" className="duration-300 hover:text-blue-100">Serviços</Link>
-              <Link href="https://www.bomgia.com.br/meklab/suporte.asp" className="duration-300 hover:text-blue-100" target="_blank">Contato</Link>          
+              <Link href="https://www.bomgia.com.br/bg/pages/meklab-contato/" className="duration-300 hover:text-blue-100" target="_blank">Contato</Link>          
             </div>
           </div>
             
@@ -65,7 +65,7 @@ const Navbar = () => {
               <hr className="border-blue-200" />
               <Link href="/pages/servicesOffered">Serviços</Link>
               <hr className="border-blue-200" /> 
-              <Link href="https://www.bomgia.com.br/meklab/suporte.asp">Contato</Link>                   
+              <Link href="https://www.bomgia.com.br/bg/pages/meklab-contato/" target="_blank">Contato</Link>                   
             </div>
           </div>
         )}
